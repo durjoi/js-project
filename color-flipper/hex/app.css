@@ -1,10 +1,12 @@
- * {
+* {
     margin: 0;
     padding: 0;
     
 }
 body {
     background: #fff;
+    position: relative;
+    height: 100vh;
 }
 
 .header {
@@ -30,14 +32,17 @@ a.nav-link {
     padding-left: 20px;
 }
 .template {
-    width: 900px;
+    max-width: 900px;
     margin: auto;
 }
 
 .main {
     width: 400px;
-    margin: auto;
-    margin-top: 200px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 button.flipper-button {
@@ -52,7 +57,6 @@ button.flipper-button {
     border-radius: 10px;
     margin-top: 20px;
 }
-
 .content {
     background: #000;
     color: #fff;
