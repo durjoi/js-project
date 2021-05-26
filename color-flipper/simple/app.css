@@ -1,0 +1,64 @@
+ * {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: #fff;
+}
+
+.header {
+    height: 65px;
+    background: #ebf5ff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    display: block;
+    float: left;
+    line-height: 65px;
+    color: #000;
+}
+.nav {
+    float: right;
+    line-height: 65px;
+}
+
+a.nav-link {
+    text-decoration: none;
+    padding-left: 20px;
+}
+.template {
+    width: 900px;
+    margin: auto;
+}
+
+.main {
+    width: 400px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+button.flipper-button {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 42px;
+    background-color: #f5feff;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.content {
+    background: #000;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
