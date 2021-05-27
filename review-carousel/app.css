@@ -1,0 +1,93 @@
+/* #26aaf9 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f6fbff;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.carousel-item {
+    width: 450px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 250px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-image {
+    height: 250px;
+    width: 250px;
+    border: 1px solid transparent;
+    border-radius: 250px;
+    /* overflow: hidden; */
+    margin: auto;
+    position: relative;
+    z-index: 9999;
+}
+.carousel-image:before {
+    content: "";
+    background: #26aaf9;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: -9px;
+    left: 10px;
+    border-radius: 250px;}
+
+.carousel-content {
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2#name {
+    margin-bottom: 7px;
+}
+
+p#title {
+    margin-bottom: 7px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #26aaf9;
+}
+
+.next-btn, .preview-btn {
+    border: none;
+    background: transparent;
+    color: #26aaf9;
+    margin-bottom: 5px;
+    font-size: 26px;
+    padding: 10px;
+}
+
+.random-btn {
+    padding: 3px;
+    background: transparent;
+    border: 1px solid #26aaf9;
+    border-radius: 3px;
+    color: #26aaf9;
+}
+.btn {
+    outline: none;
+    cursor: pointer;
+}
